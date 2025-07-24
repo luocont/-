@@ -9,7 +9,7 @@ class DesktopPet(QMainWindow):
         super().__init__()
         # API客户端初始化
         self.api_client = ApiClient(
-            api_key="sk-e6888adc03d048b498e15f63524b7549",
+            api_key="your_api_key",
             base_url="https://api.deepseek.com",
             history_file="chat_history.json"
         )
